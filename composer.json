@@ -4,7 +4,6 @@
     "keywords": ["advent-of-code"],
     "license": "MIT",
     "type": "library",
-    "prefer-stable": true,
     "minimum-stability": "dev",
     "authors": [
         {
