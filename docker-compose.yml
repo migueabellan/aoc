@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: php-aoc
+    container_name: php-aoc
+    working_dir: /app
+    volumes:
+      - ./vendor:/app/vendor:cached
+      - .:/app
