@@ -5,6 +5,7 @@
     "license": "MIT",
     "type": "library",
     "prefer-stable": true,
+    "minimum-stability": "dev",
     "authors": [
         {
           "name": "Miguel Ángel Abellán",
