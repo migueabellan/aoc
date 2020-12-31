@@ -1,0 +1,49 @@
+{
+    "name": "migueabellan/aoc",
+    "description": "Advent Of Code - Library PHP",
+    "keywords": ["advent-of-code"],
+    "license": "MIT",
+    "type": "library",
+    "prefer-stable": true,
+    "authors": [
+        {
+          "name": "Miguel Ángel Abellán",
+          "email": "info@migueabellan.es",
+          "homepage": "https://migueabellan.github.io",
+          "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dotenv": "^5.2"
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.1",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aoc\\": "src/"
+        },
+        "files" : [
+            "src/bootstrap.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aoc\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "cscheck": "phpcs",
+        "csfix": "phpcbf",
+        "phpstan": "phpstan analyse ./src ./tests/ -c phpstan.neon --level=7 --no-progress -vvv --memory-limit=1024M"
+    }
+}
