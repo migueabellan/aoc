@@ -1,5 +1,9 @@
 # [WIP] Advent Of Code - Library
 
+![Github](https://github.com/migueabellan/aoc/workflows/Test/badge.svg)
+![Advent Of Code](https://img.shields.io/badge/Advent%20Of%20Code-library-orange?style=flat-square)
+![php](https://img.shields.io/github/languages/top/migueabellan/aoc?style=flat-square)
+
 # Table of Contents
 
 - [Installation](#installation)
