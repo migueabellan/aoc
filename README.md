@@ -27,7 +27,7 @@ SESSION_AOC=your_cookie_session
 
 ### Autoloading
 
-Faker supports `PSR-4` autoloaders.
+Supports `PSR-4` autoloaders.
 
 ```php
 <?php
