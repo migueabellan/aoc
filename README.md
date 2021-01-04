@@ -8,6 +8,8 @@
 
 - [Installation](#installation)
 - [Basic Usage](#basic-usage)
+- [Advanced Usage](#advanced-usage)
+- [Utils](#utils)
 
 ## Installation
 
