@@ -35,11 +35,26 @@ Supports `PSR-4` autoloaders.
 // When installed via composer
 require_once 'vendor/autoload.php';
 
-// Use the client to create a instance
-$client = new \Aoc\Client();
+use Aoc\Client;
+
+$client = new Client();
 
 // Retrieve input by year and day
 $input = $client->getInputBy(2020, 23);
 
 echo $input; // 543769257...
+```
+
+## Utils
+
+```php
+<?php
+
+use Aoc\Utils;
+
+$array = [0, 1, 2];
+
+$permutations = ArrayUtil::permutations($array);
+
+print_r($permutations); // [[0, 1, 2], [0, 2, 1], [2, 1, 0] ...]
 ```
