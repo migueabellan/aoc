@@ -45,6 +45,35 @@ $input = $client->getInputBy(2020, 23);
 echo $input; // 543769257...
 ```
 
+## Advanced Usage
+
+```php
+<?php
+
+use Aoc\Puzzle\AbstractPuzzle;
+
+class Puzzle extends AbstractPuzzle
+{
+    public function exec1(array $input = []): string
+    {
+        $result = 0;
+
+        // ...
+
+        return (string)$result;
+    }
+
+    public function exec2(array $input = []): string
+    {
+        $result = 0;
+
+        // ...
+
+        return (string)$result;
+    }
+}
+```
+
 ## Utils
 
 ```php
