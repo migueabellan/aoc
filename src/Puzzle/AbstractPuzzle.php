@@ -9,7 +9,7 @@ namespace Aoc\Puzzle;
  */
 abstract class AbstractPuzzle implements InterfacePuzzle
 {
-    protected float $ini_time = 0;
+    private float $ini_time = 0;
 
     public function __construct()
     {
@@ -19,7 +19,7 @@ abstract class AbstractPuzzle implements InterfacePuzzle
     /**
      * Get path of the input file
      */
-    protected function getPathIn(): string
+    public function getPathIn(): string
     {
         $path = (string)(new \ReflectionClass($this))->getFileName();
 
@@ -38,8 +38,6 @@ abstract class AbstractPuzzle implements InterfacePuzzle
 
     /**
      * Write output in a console
-     *
-     * @see InterfaceController
      */
     public function write(string $string): void
     {
