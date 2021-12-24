@@ -2,6 +2,7 @@
 
 namespace Aoc\Enums;
 
+// phpcs:disable
 enum Direction: string {
     case NORTH  = 'NORTH';
     case EAST   = 'EAST';
@@ -28,3 +29,4 @@ enum Direction: string {
         };
     }
 }
+// phpcs:enable

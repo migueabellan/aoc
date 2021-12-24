@@ -20,6 +20,7 @@ jobs:
     - name: Run phpstan
       run: composer phpstan
 
-    - name: Run phpunit
-      run: php vendor/bin/phpunit --testdox tests/Utils
+    - name: Run phpunit Enums
       run: php vendor/bin/phpunit --testdox tests/Enums
+    - name: Run phpunit Utils
+      run: php vendor/bin/phpunit --testdox tests/Utils
