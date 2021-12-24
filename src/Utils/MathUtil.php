@@ -20,6 +20,10 @@ class MathUtil
             }
         }
 
-        return array_unique($divisors);
+        $divisors = array_unique($divisors);
+
+        sort($divisors);
+
+        return $divisors;
     }
 }

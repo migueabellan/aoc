@@ -9,13 +9,12 @@
     "authors": [
         {
           "name": "Miguel Ángel Abellán",
-          "email": "info@migueabellan.es",
           "homepage": "https://migueabellan.github.io",
           "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "guzzlehttp/guzzle": "^7.2",
@@ -24,7 +23,7 @@
     "require-dev": {
         "phpstan/extension-installer": "^1.1",
         "phpunit/phpunit": "^9.5",
-        "squizlabs/php_codesniffer": "^3.5"
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "autoload": {
         "psr-4": {

@@ -5,7 +5,7 @@ namespace Aoc\Puzzle;
 /**
  * Provides common features needed
  *
- * @author Miguel Ángel Abellán <info@migueabellan.es>
+ * @author Miguel Ángel Abellán <@migueabellan>
  */
 abstract class AbstractPuzzle implements InterfacePuzzle
 {

@@ -11,7 +11,7 @@ jobs:
     - name: Install dependencies
       uses: php-actions/composer@v4
       with:
-        php_version: 8.0
+        php_version: 8.1
         composer_version: 2
 
     - name: Run cscheck
@@ -22,3 +22,4 @@ jobs:
 
     - name: Run phpunit
       run: php vendor/bin/phpunit --testdox tests/Utils
+      run: php vendor/bin/phpunit --testdox tests/Enums
