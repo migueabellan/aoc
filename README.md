@@ -56,7 +56,7 @@ use Aoc\Puzzle\AbstractPuzzle;
 
 class Puzzle extends AbstractPuzzle
 {
-    public function exec1(array $input = []): string
+    public function exec1(array $input = []): int|string
     {
         $result = 0;
 
@@ -65,7 +65,7 @@ class Puzzle extends AbstractPuzzle
         return (string)$result;
     }
 
-    public function exec2(array $input = []): string
+    public function exec2(array $input = []): int|string
     {
         $result = 0;
 

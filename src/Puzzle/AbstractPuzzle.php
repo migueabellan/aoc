@@ -2,11 +2,6 @@
 
 namespace Aoc\Puzzle;
 
-/**
- * Provides common features needed
- *
- * @author Miguel Ángel Abellán <@migueabellan>
- */
 abstract class AbstractPuzzle implements InterfacePuzzle
 {
     private float $ini_time = 0;
